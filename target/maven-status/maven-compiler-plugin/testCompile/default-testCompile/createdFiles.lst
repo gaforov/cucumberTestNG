@@ -1,0 +1,6 @@
+base\BaseTest.class
+steps\ForgotPasswordSteps.class
+WindowHandle.class
+forgotPassword\forgotPasswordTests.class
+Example.class
+steps\Hooks.class
