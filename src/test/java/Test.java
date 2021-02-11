@@ -1,9 +1,15 @@
 public class Test {
+//index of 1,1,2,3,5,8
+    public static void main(String[] args) {
 
-    public void testItems(int [] items) {
-        for (int i = 0; i < items.length; i++) {
-            System.out.println("Welcome to " + items[i]);
+        System.out.println(findFibonacciNumber(7));
 
-        }
+    }
+
+    public static int findFibonacciNumber(int num) {
+        if (num <= 2)
+            return 1;
+        else
+            return (num-1)+(num-2);
     }
 }
